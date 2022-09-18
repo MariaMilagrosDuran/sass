@@ -3,8 +3,7 @@
     font-family:'League Gothic', sans-serif;
     font-size: map-get($font-sz, m)
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
+    @include flex-center(column)
     margin-top: 10px;
     height: 10vh;
 }
