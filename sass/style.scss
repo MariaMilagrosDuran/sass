@@ -4,3 +4,10 @@
 @import './footer.scss';
 @import './navbar.scss';
 
+* {  
+    color:$third-color;
+    background-color: $primary-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

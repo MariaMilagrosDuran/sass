@@ -1,0 +1,25 @@
+.footer{
+    text-align: center;
+    font-family:'League Gothic', sans-serif;
+    font-size: map-get($font-sz, m)
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 10vh;
+}
+
+.button{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.btnbtn-primary{
+    @extend .button;
+    color: black;
+    background-color:$secondary-color;
+}
+.btn btn-secundary{
+    @extend.button;
+    color: black;
+    background-color: $active-color;
+}

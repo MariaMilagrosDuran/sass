@@ -1,4 +1,29 @@
-contenedor{
-    font-family: $primary-font;
-    color: blueviolet
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    &contenedor__title{
+        font-size: map-get($font-sz, xxl)
+    text-align: center;
+    font-weight: 400;
+    font-family:'League Gothic', sans-serif;
+    letter-spacing: 20px;
+    margin: 50px    50px    50px    50px;
+}
+}
+
+.contenedor__texto{
+    justify-content: flex-end;
+    width: 1000px;
+    margin: 50px 50px 50px 50px;
+    padding: 1em;
+
+&texto  p{
+    font-size: map-get($font-sz, xl)
+    font-family:'Roboto', sans-serif;
+    text-align: center;}
 }
