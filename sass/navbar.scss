@@ -1,4 +1,30 @@
 nav{
-    color: blueviolet;
 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:$primary-color;
+    font-family: $primary-font;
+    
+    menu{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    li:hover {
+    color: $third-color;
+    transform: scale(1.2);
+    text-shadow: none;
+}
+
+    li{
+    padding: 10px;
+}
+
+    li a{
+    text-decoration: none;
+    color: $active-color;
+}
 }

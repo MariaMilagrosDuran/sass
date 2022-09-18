@@ -1,0 +1,29 @@
+contenedor {
+  font-family: "League Gothic", sans-serif;
+  color: blueviolet; }
+
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #C297B8;
+  font-family: "League Gothic", sans-serif;
+  font-size: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  nav menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+  nav li:hover {
+    color: #63474D;
+    transform: scale(1.2);
+    text-shadow: none; }
+  nav li {
+    padding: 10px; }
+  nav li a {
+    text-decoration: none;
+    color: #FEC196; }
